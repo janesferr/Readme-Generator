@@ -41,7 +41,7 @@ inquirer.prompt{
 
     }
    ]
-   ),then({
+   ).then({
 
    })
 
