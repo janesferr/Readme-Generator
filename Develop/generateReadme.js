@@ -1,6 +1,7 @@
 //node modules
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = './README.md'
 
 //inquirer to generate questions
 inquirer
@@ -68,6 +69,12 @@ inquirer
 //Go the extra mile and write tests for your application. Then provide examples on how to run them.   
 ])
    .then((response) => {
+    try {
+        fs.unlinkSync(path)
+        //file removed
+      } catch(err) {
+        console.error(err)
+      }
     const newString = ` # ${response.project}\n + ## Description \n ${response.description}\n + ## Table of Contents \n  + ## Installation \n ${response.installation}\n + ## Usage\n ${response.usage} \n + ## Credits\n ${response.collaborators} \n + ## License \n ${response.license}\n `;
     fs.appendFile('README.md', `${newString}\n`, (err) =>
     err ? console.error(err): console.log('Commit logged!')
