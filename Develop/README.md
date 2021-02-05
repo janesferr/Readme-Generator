@@ -1,15 +1,15 @@
  
-# Project Name: jalejkel
+# Project Name: README GENERATOR [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
 
 ## Instructions
 
 ## Description 
-askjfljsdf
+This code is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package and nodejs.
 
 ## Table of Contents
-- [Project Name:](#Project Name)
+
 - [Instructions](##Instructions)
 - [Description](##Description)
 - [Installation](##Installation)
@@ -21,26 +21,30 @@ askjfljsdf
 
 ## Installation 
 
-asjkljsdf
+The required installations are npm init, npm install, and npm i inquirer.
 ## Usage 
 
-![alt text](sasjdlsjdf)
+![alt text](Video)
 
 ## Credits
 
-aslkjdflsjdf
+There are no collaborators in this project.
 ## License 
 
-Apache 2.0 License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Features
-features
+Lots of Features of to be involved
 
 ## Contributors
-alskjdfs
+This application has a package.json
 
 ## Test
 
-alskjdlsdf
+Testing in progress
+
+## Questions 
+https://github.com/janesferr
+* You can reach me in my jane.sferrazza888@gmail.com
+
 

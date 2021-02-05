@@ -47,12 +47,12 @@ function printBadge(badgeName, badge) {
 }
 
 // FUNCTIONS ==================================
-const writeUserInfo = ({ project, description,installation, usage, collaborators, license, features, contribute, test }) => {
+const writeUserInfo = ({ project, description,installation, usage, collaborators, license, features, contribute, test, username, email }) => {
 
 const licenseBadge = printBadge(license);
                   
 const newString = ` 
-# Project Name: ${project}
+# Project Name: ${project} ${licenseBadge} 
 
 In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
 
@@ -62,7 +62,7 @@ In this activity, you will build a command-line tool that generates an HTML port
 ${description}
 
 ## Table of Contents
-- [Project Name:](#Project Name)
+
 - [Instructions](##Instructions)
 - [Description](##Description)
 - [Installation](##Installation)
@@ -84,8 +84,7 @@ ${installation}
 ${collaborators}
 ## License 
 
-${license}
-${licenseBadge} 
+${license} ${licenseBadge} 
 
 ## Features
 ${features}
@@ -96,6 +95,11 @@ ${contribute}
 ## Test
 
 ${test}
+
+## Questions 
+${username}
+* You can reach me in my email: ${email}
+
 
 `;
   // write it to a file
