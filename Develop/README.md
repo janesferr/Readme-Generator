@@ -1,7 +1,6 @@
  
 # Project Name: README GENERATOR [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
 
 ## Instructions
 
