@@ -23,7 +23,7 @@ This code is a command-line application that dynamically generates a professiona
 The required installations are npm init, npm install, and npm i inquirer.
 ## Usage 
 
-![alt text](Video)
+![Gif demo of README-generator](readme-demo.gif)
 
 ## Credits
 
@@ -44,6 +44,6 @@ Testing in progress
 
 ## Questions 
 https://github.com/janesferr
-* You can reach me in my jane.sferrazza888@gmail.com
+* You can reach me in my email jane.sferrazza888@gmail.com
 
 
